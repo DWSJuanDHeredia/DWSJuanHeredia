@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+    
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <title>Unidad1-Fase2</title>
+    <link rel="stylesheet" href="css/blog.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="blog-header py-5">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-4 pt-1">
+                    <a class="link-secondary" href="#">Subscribe</a>
+                </div>
+                <div class="col-4 text-center">
+                    <a class="blog-header-logo text-dark" href="#">Diseño de sitio Web: Etiquetas Semanticas, Listas y
+                        Enlaces</a>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <a class="link-secondary" href="#" aria-label="Search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img"
+                            viewBox="0 0 24 24">
+                            <title>Search</title>
+                            <circle cx="10.5" cy="10.5" r="7.5" />
+                            <path d="M21 21l-5.2-5.2" />
+                        </svg>
+                    </a>
+                    <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="nav-scroller py-1 mb-5">
+            <nav class="nav d-flex justify-content-between">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Temas</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="tema1.html">Etiquetas Semanticas</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="tema2.html">Listas y Enlaces</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Recursos Digitales</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="recurso1.html">Recurso 1</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="recurso2.html">Recurso 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Aprendizaje</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="actividad1.html">Actividad 1</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="actividad2.html">Actividad 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Acerca de</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="autor.html">Autor</a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="row g-5">
+            <div class="col-md-8">
+                <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                    Actividad 2
+                </h3>
+
+                <article class="blog-post">
+                    <h2 class="blog-post-title">Cuestionario Básico HTML5 (Enlaces)</h2>
+                    <p class="blog-post-meta">July 24, 2021 por <a href="#">Juan David Heredia</a></p>
+                </article>            
+
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfmlqrOUQbYP0OXHI1Tro0IYu7s7VFk9KRMkui6CtnGyr6pqw/viewform?embedded=true" width="640" height="1643" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+
+
+                <nav class="blog-pagination" aria-label="Pagination">
+                    <a class="btn btn-outline-primary" href="#">Older</a>
+                    <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+                </nav>
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="position-sticky" style="top: 2rem;">
+                    <div class="p-4 mb-3 bg-light rounded">
+                        <h4 class="fst-italic">Acerca de...</h4>
+                        <aside>
+                            <iframe
+                                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                                width="340" height="500" style="border:none;overflow:hidden" scrolling="no"
+                                frameborder="0" allowfullscreen="true"
+                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        </aside>
+
+                    </div>
+
+                    <div class="p-4">
+                        <h4 class="fst-italic">Archives</h4>
+                        <ol class="list-unstyled mb-0">
+                            <li><a href="#">March 2021</a></li>
+                            <li><a href="#">February 2021</a></li>
+                            <li><a href="#">January 2021</a></li>
+                            <li><a href="#">December 2020</a></li>
+                            <li><a href="#">November 2020</a></li>
+                            <li><a href="#">October 2020</a></li>
+                            <li><a href="#">September 2020</a></li>
+                            <li><a href="#">August 2020</a></li>
+                            <li><a href="#">July 2020</a></li>
+                            <li><a href="#">June 2020</a></li>
+                            <li><a href="#">May 2020</a></li>
+                            <li><a href="#">April 2020</a></li>
+                        </ol>
+                    </div>
+
+                    <div class="p-4">
+                        <h4 class="fst-italic">Elsewhere</h4>
+                        <ol class="list-unstyled">
+                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
